@@ -3,6 +3,7 @@ function startAnimation() {
     document.getElementById("startButtonContainer").style.display = "none";
     document.getElementById("messageContainer").style.display = "none";
     document.getElementById("flowerContainer").classList.remove("hidden");
+    document.getElementById("lyricsContainer").classList.remove("hidden");
 
     var audio = document.getElementById("music");
     audio.play(); // Reproducir el audio
